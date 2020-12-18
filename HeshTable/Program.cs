@@ -43,8 +43,7 @@ namespace HeshTable
                     IofMaxDeadHeats = i;
                 }
             }
-
-            sw.WriteLine(table[IofMaxDeadHeats].Str[1]);
+            sw.WriteLine($" Max of dead heats took {table[IofMaxDeadHeats].Str[1]}");
             sw.Close();
         }
     }
